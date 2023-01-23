@@ -27,7 +27,7 @@ def hash_collision(k):
       if hashcode_bi_1 == hashcode_bi_2:
         #print(string_1, hashcode_bi_1)
         #print(string_2, hashcode_bi_2)
-        return (string_1, string_2)
+        return (string_1.encode('utf-8'), string_2.encode('utf-8'))
         #print(string_1, string_2)
 
     x = b'\x00'
